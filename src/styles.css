@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://s3cf.recapguide.com:444/img/tv/261/13x46/One-Piece-Season-13-Episode-46-3-d5db.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: lightskyblue;
+}
+
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 500px;
+  color: rgb(48, 48, 48);
+  border: 5px solid;
+  background-color: lightskyblue;
+  width: auto;
+  padding-top: 10px;
+  text-shadow: 3px 3px 8px rgb(151, 32, 32);
+}
+
+.title:hover {
+}
+
+.container {
+  display: grid;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  background-color: rgba(135, 206, 250, 0.739);
+  grid-template-columns: 80%;
+  grid-template-rows: auto auto auto auto;
+}
+
+.info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-self: center;
+  font-size: 24px;
+  padding: 10px;
+  color: rgb(48, 48, 48);
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  transition: transform 3s;
+}
+
+img:hover {
+  transform: scale(0.0000001);
+}
+
+.behindluffy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(48, 48, 48);
+}
+
+.fact {
+  background-color: rgba(241, 175, 89, 0.685);
+  border: solid 8px;
+  border-color: rgb(135, 206, 250);
+  padding: 10px 5px;
+  color: rgb(48, 48, 48);
+  font-size: 25px;
+  text-align: center;
+  display: inline;
+}
+
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(178, 255, 61);
+  color: rgb(48, 48, 48);
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px 20px;
+  padding-block-end: 10px;
+  padding-top: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(126, 32, 32);
+  color: rgb(139, 124, 37);
+}
